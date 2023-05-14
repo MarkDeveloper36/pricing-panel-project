@@ -4,9 +4,12 @@ Flexbox and Media Query Pricing Panel Exercise
 This repository contains my solution for the pricing panel exercise focused on using flexbox and media queries. The exercise involved creating a pricing panel using HTML and CSS, based on the instructions provided by Colt Steele.
 
 Table of Contents
-Description
-Technologies Used
-Credits
+
+1. Description
+
+2. Technologies Used
+
+3. Credits
 
 Description
 This pricing panel exercise is a great way to practice using CSS flexbox and media queries to create a responsive design. The exercise requires you to recreate a pricing panel that includes multiple pricing tiers and features.
