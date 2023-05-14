@@ -1,5 +1,6 @@
 ## pricing-panel-project
 #Flexbox and Media Query Pricing Panel Exercise
+
 This repository contains my solution for the pricing panel exercise focused on using flexbox and media queries. The exercise involved creating a pricing panel using HTML and CSS, based on the instructions provided by Colt Steele.
 
 ##Table of Contents
