@@ -13,11 +13,16 @@ This pricing panel exercise is a great way to practice using CSS flexbox and med
 
 I used HTML and CSS, with a focus on using flexbox and media queries to create a responsive and visually appealing design. The final result closely matches the original design, and I learned a lot about CSS layout in the process.
 
-##Technologies Used
+##Technologies Used:
+
 HTML
+
 CSS (Flexbox and Media Queries)
+
 Visual Studio Code
+
 Linux Command Line
+
 Git
 
 ##Credits
