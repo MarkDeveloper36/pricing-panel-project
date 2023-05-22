@@ -4,9 +4,10 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height:
+    height: 100vh;
 }
 
 h2 {
@@ -30,7 +31,7 @@ li {
     display: flex;
     justify-content: center;
     padding: 2em;
-    m
+    
 }
 
 .panelcol {
