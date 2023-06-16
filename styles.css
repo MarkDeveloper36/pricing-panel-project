@@ -12,10 +12,8 @@ body {
 
 h2 {
     color: #888888;
-}
-
-ul {
-
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 li {
@@ -31,14 +29,14 @@ li {
     display: flex;
     justify-content: center;
     padding: 2em;
-    
+    max-width: 85%;
 }
 
 .panelcol {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin: 0 1em 0 1em;
 }
 
 span {
@@ -52,4 +50,39 @@ span {
     padding: 1em 2em;
     color: #348efe;
     border-radius: 0.7em;
+}
+
+.btn-primary {
+    background-color: #48aaff;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #269aff;
+}
+
+#small_team {
+    border-left:1px solid #e1f1ff;
+    border-right:1px solid #e1f1ff;
+}
+
+li {
+    padding: 1.5em;
+}
+
+ul {
+    letter-spacing: 1px;
+}
+
+.li_border_top_and_bottom {
+    border-top: 1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.li_border_top {
+    border-top: 1px solid #e1f1ff;
+}
+
+.pricetag {
+    margin: 0.4em 0 0.4em 0;
 }
