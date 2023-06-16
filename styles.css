@@ -7,20 +7,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h2 {
     color: #888888;
     font-weight: 600;
     letter-spacing: 1px;
+    font-size: medium;
 }
 
 li {
-    color: #348efe;
+    color: #016ff9;
     list-style: none;
     text-align: center;
     padding: 1em;
+    font-size: smaller;
+    font-weight: 400;
 }
 
 #price-panel {
@@ -29,19 +33,22 @@ li {
     display: flex;
     justify-content: center;
     padding: 2em;
-    max-width: 85%;
+    max-width: 960px;
+    width: 100%;
+    font-weight: 700;
+    padding: 15px 25px;
 }
 
 .panelcol {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 1em 0 1em;
+    margin: 1em 1em 0 1em;
+    padding: 25px 50px;
 }
 
 span {
     color: #016ff9;
-    font-weight: 700;
     font-size: 2em;
 }
 
@@ -67,11 +74,13 @@ span {
 }
 
 li {
-    padding: 1.5em;
+    padding: 1rem;
+    line-height: 1.5;
 }
 
 ul {
     letter-spacing: 1px;
+    padding-left: 0;
 }
 
 .li_border_top_and_bottom {
@@ -85,4 +94,19 @@ ul {
 
 .pricetag {
     margin: 0.4em 0 0.4em 0;
+}
+
+#pricetag400, #pricetagfree {
+    margin-top: 1em;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+    #price-panel {
+        flex-direction: column;
+    }   
 }
